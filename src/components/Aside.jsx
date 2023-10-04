@@ -32,7 +32,7 @@ const Aside = () => {
 
 
             <div className='uno'>
-                <Link to={'../Home'}>
+                <Link to={'../'}>
                     <button className='New' onClick={handleSeleccionar}>
                     {isSeleccionado ? <AiFillFire/> : <AiOutlineFire/> }
                     <span>New </span>
